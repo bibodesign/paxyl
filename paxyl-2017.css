@@ -196,7 +196,7 @@ a:focus {
     background-size: cover;
     background-position: center;
 	height: 100vh;
-	padding: 20vh 20vw;
+	padding: 10vh 10vw;
 	margin-top: 3px;
 	display: flex;
 	flex-wrap: nowrap;
