@@ -255,7 +255,7 @@ a:focus {
 	font-size: 2rem;
 	text-transform: uppercase;
 }
-.btn-end-section a:hover {
+.btn-black:hover {
 	color: black;
  	background-color: rgb(224, 224, 224);
 }
