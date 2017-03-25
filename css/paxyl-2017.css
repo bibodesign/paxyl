@@ -225,8 +225,8 @@ a:focus {
 .slider-content .slider-box {
   text-align: left;
 }
-/* Overlay */
-.slendr-slide:before {
+/* Overlay
+/* .slendr-slide:before {
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -234,7 +234,7 @@ a:focus {
   left: 0;
   top: 0;
   content: ' ';
-}
+} */
 .fa-caret-right {
 	color: #ffffff;
 	font-size: 9rem;
@@ -300,7 +300,7 @@ a:focus {
 
 .header-cover-services {
 	margin-top: 3px;
-	background-image: url("images/paxyl-solutions-services-img-sm.jpg");
+	background-image: url("../images/paxyl-solutions-services-img-sm.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -322,7 +322,7 @@ a:focus {
 
 .header-cover-clients {
 	margin-top: 3px;
-	background-image: url("images/paxyl-solutions-clients-img-sm.jpg");
+	background-image: url("../images/paxyl-solutions-clients-img-sm.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -414,7 +414,7 @@ a:focus {
 
 .header-cover-contact {
 	margin-top: 3px;
-	background-image: url("images/map-paxyl-red.jpg");
+	background-image: url("../images/map-paxyl-red.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
