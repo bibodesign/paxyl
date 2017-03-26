@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="70px" viewBox="0 0 65 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Stats</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="HOME" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD---ICONES-SOLUTIONS" transform="translate(-1092.000000, -818.000000)" fill="#D0011B">
+            <g id="MIDDLE-02-ROW" transform="translate(218.000000, 795.000000)">
+                <g id="STATISTIQUES" transform="translate(815.000000, 0.000000)">
+                    <path d="M60.8125,93 L78.3125,93 L78.3125,54.9375 L60.8125,72.4375 L60.8125,93 Z M81.8125,93 L99.3125,93 L99.3125,58.4375 L92.3125,65.4375 L81.8125,54.9375 L81.8125,93 Z M102.8125,93 L120.3125,93 L120.3125,39.84375 L102.8125,57.34375 L102.8125,93 Z M79.625,44.21875 L92.3125,56.796868 L117.359368,31.96875 L123.8125,38.421868 L123.59375,23 L108.171868,23.109368 L114.1875,29.125 L92.3125,51 L79.40625,38.09375 L59.71875,57.671868 L63,60.84375 L79.625,44.21875 Z" id="Stats"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
