@@ -346,15 +346,21 @@ a:focus {
 	text-align: justify;
 }
 .btn-intro {
-	margin-top: 5rem;
-	margin-bottom: 6rem;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+}
+.btn-xcloud {
+	margin-right: 2rem;
+}
+.btn-ensite {
+	padding: 15px 50px;
 }
 .btn-red {
 	border: 2px solid #000000;
-	padding: 15px 30px;
+	padding: 15px 50px;
 	color: #ffffff;
 	background-color: #D0011B;
 	font-weight: 300;
