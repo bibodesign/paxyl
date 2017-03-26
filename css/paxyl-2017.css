@@ -225,8 +225,8 @@ a:focus {
 .slider-content .slider-box {
   text-align: left;
 }
-/* Overlay
-/* .slendr-slide:before {
+/* Overlay */
+.slendr-slide:before {
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -234,11 +234,12 @@ a:focus {
   left: 0;
   top: 0;
   content: ' ';
-} */
+}
 .fa-caret-right {
 	color: #ffffff;
 	font-size: 9rem;
 	margin-left: 5rem;
+	margin-right: 1rem;
 }
 .btn-white {
 	border: 2px solid #ffffff;
@@ -256,7 +257,7 @@ a:focus {
 /* <!-- ================ PARTENAIRES =============== --> */
 
 .container-about {
-	padding-top: 90rem;
+	padding-top: 95rem;
 }
 .partenaires-section {
 	display: flex;
