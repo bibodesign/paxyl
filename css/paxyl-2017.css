@@ -371,6 +371,11 @@ a:focus {
 	color: #ffffff;
  	background-color: #000000;
 }
+.logo-xcloud {
+	width: 35%;
+	margin: 0 auto;
+	padding-bottom: 3rem;
+}
 .em-xcloud {
 	font-weight: 700;
 	color: #D0011B;
