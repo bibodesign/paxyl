@@ -371,7 +371,11 @@ a:focus {
 	color: #ffffff;
  	background-color: #000000;
 }
-
+.em-xcloud {
+	font-weight: 700;
+	color: #D0011B;
+	text-transform: uppercase;	
+}
 
 /* <!-- ================ CLIENTS =============== --> */
 
