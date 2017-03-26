@@ -319,6 +319,54 @@ a:focus {
 	padding-top: 8rem;
 }
 
+/* <!-- ================ SOLUTIONS =============== --> */
+
+.header-cover-solutions {
+	margin-top: 3px;
+	background-image: url("../images/paxyl-solutions-xcloud-img-sm.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.solutions-titre {
+	font-size: 2.5rem;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 2rem;
+}
+.solutions-intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.solutions-texte {
+	text-align: justify;
+}
+.btn-intro {
+	margin-top: 5rem;
+	margin-bottom: 6rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.btn-red {
+	border: 2px solid #000000;
+	padding: 15px 30px;
+	color: #ffffff;
+	background-color: #D0011B;
+	font-weight: 300;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+.btn-red:hover {
+	color: #ffffff;
+ 	background-color: #000000;
+}
+
+
 /* <!-- ================ CLIENTS =============== --> */
 
 .header-cover-clients {
@@ -394,7 +442,6 @@ a:focus {
 	border-radius: 50%;
 	margin-bottom: 2rem;
 }
-
 .btn-reverse-2 {
 	border: 2px solid #000000;
 	background-color: #ffffff;
