@@ -357,6 +357,9 @@ a:focus {
 .btn-ensite {
 	padding: 15px 50px;
 }
+.btn-end-red {
+	margin-top: 5rem;
+}
 .btn-red {
 	border: 2px solid #000000;
 	padding: 15px 50px;
@@ -386,7 +389,6 @@ a:focus {
 	list-style-position: outside;
     padding-left: 10rem;
     text-indent: -5rem;
- 	margin-bottom: 4rem;
  	padding-left: 50px;
 }
 .triangle::before {
@@ -417,11 +419,11 @@ a:focus {
 	margin-left: 2rem;
 	margin-right: 2rem;
 	border-radius: 50%;
-	margin-bottom: 8rem;
+	margin-bottom: 6rem;
 }
 .caracteristiques-icon {
-	width: 66px;
-	height: 66px;
+	width: 75px;
+	height: 60px;
 	margin-top: 10px;
 }
 .caract-text p {
