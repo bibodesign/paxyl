@@ -120,6 +120,7 @@ em {
 	width: 1000px;
 	margin: 0 auto;
 }
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -254,6 +255,20 @@ a:focus {
 .btn-white:hover {
  	background-color: rgba(255, 255, 255, 0.4);
 }
+
+/* <!-- ================ A PROPOS =============== --> */
+
+.header-cover-apropos {
+	margin-top: 3px;
+	background-image: url("../images/paxyl-solutions-apropos-img-sm.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
 /* <!-- ================ PARTENAIRES =============== --> */
 
 .container-about {
@@ -271,12 +286,12 @@ a:focus {
 	align-items: center;
 	border: 8px solid #999898;
 	padding: 10px;
-	width: 215px;
-	height: 215px;
+	width: 200px;
+	height: 200px;
 	margin-left: 3rem;
 	margin-right: 3rem;
 	border-radius: 50%;
-	margin-bottom: 8rem;
+	margin-bottom: 6rem;
 }
 .btn-end-section {
 	text-align: center;
