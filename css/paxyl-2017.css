@@ -380,7 +380,6 @@ a:focus {
 	color: #D0011B;
 	text-transform: uppercase;	
 }
-
 .solutions-list {
 	font-size: 2.5rem;
 	line-height: 1.5;
@@ -390,7 +389,6 @@ a:focus {
  	margin-bottom: 4rem;
  	padding-left: 50px;
 }
-
 .triangle::before {
     content: "▶";
     display: block;
@@ -408,6 +406,8 @@ a:focus {
 }
 .logo-caracteristiques {
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	border: 8px solid #999898;
@@ -419,7 +419,19 @@ a:focus {
 	border-radius: 50%;
 	margin-bottom: 8rem;
 }
-
+.caracteristiques-icon {
+	width: 66px;
+	height: 66px;
+	margin-top: 10px;
+}
+.caract-text p {
+	width: 175px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.7rem;
+	line-height: 1.1;
+	margin-top: 0;
+}
 /* <!-- ================ CLIENTS =============== --> */
 
 .header-cover-clients {
