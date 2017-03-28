@@ -441,23 +441,23 @@ a:focus {
 	align-items: center;
 	border: 8px solid #999898;
 	padding: 10px;
-	width: 200px;
-	height: 200px;
-	margin-left: 2rem;
-	margin-right: 2rem;
+	width: 170px;
+	height: 170px;
+	margin-left: 1.4rem;
+	margin-right: 1.4rem;
 	border-radius: 50%;
-	margin-bottom: 6rem;
+	margin-bottom: 5rem;
 }
 .caracteristiques-icon {
-	width: 75px;
-	height: 60px;
-	margin-top: 10px;
+	width: 65px;
+	height: 50px;
+	margin-top: 6px;
 }
 .caract-text p {
-	width: 175px;
+	width: 160px;
 	text-align: center;
 	font-weight: 400;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 	line-height: 1.1;
 	margin-top: 0;
 }
