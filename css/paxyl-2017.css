@@ -644,9 +644,19 @@ input {
 }
 
 /* <!-- ================ FOOTER =============== --> */
+.site-nav-bottom {
+	padding: 25px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+}
 .logo-footer {
 	margin-top: 75px;
 	margin-right: 20px;
+}
+.paxyl-logo-bottom {
+	width: 160px;
+	margin-right: 2rem;
 }
 .footer-icon-address {
 	display: block;
@@ -723,7 +733,7 @@ input {
 	  	font-size: 8rem;
 	}
 	h5 {
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 	p {
 		font-size: 1.7rem;
@@ -817,7 +827,46 @@ input {
 		padding: 15px 30px;
 		font-size: 1.5rem;
 	}
+}
 
+/* ---------- FOOTER ---------- */
+
+		.site-nav-bottom {
+			padding: 15px 0;
+		}
+		.logo-footer {
+			margin-top: 75px;
+		}
+		.paxyl-logo-bottom {
+			width: 140px;
+			margin-right: 3rem;
+		}
+		.footer-icon-address {
+			display: block;
+			margin-top: 50px;
+			margin-right: 10px;
+		}
+		.footer-icon {
+			padding-bottom: 20px;
+		}
+		.footer-address {
+			padding-top: 10px;
+			max-width: 230px;
+		}
+		.address {
+			font-size: 1.4rem;
+			line-height: 1.2;
+			padding-bottom: 8px;
+		}
+		.nav-bottom {
+			line-height: 2;
+		}
+		.nav-bottom li {
+			margin-left: 30px;
+		}
+		.linkedin-bottom {
+			margin-top: 10px;
+			margin-left: 45px;
 }
 
 /* <!-- ================ 320PX AMAZING MEDIA QUERIES =============== --> */
