@@ -821,7 +821,7 @@ input {
 	.btn-black {
 		font-size: 1.5rem;
 	}
-}
+
 
 /* ---------- SERVICES ---------- */
 	.services-intro {
@@ -853,7 +853,7 @@ input {
 	}
 
 /* ---------- CONTACT ---------- */
-/* 	.fa-map-marker {
+	.fa-map-marker {
 		font-size: 4rem;
 		text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 		top: 42%;
@@ -869,20 +869,20 @@ input {
 		width: 600px;
 		height: 165px;
 		margin-right: 0;
-	} */	
+	}	
 
 /* ---------- FOOTER ---------- */
 
-/* 		.site-nav-bottom {
+		.site-nav-bottom {
 			padding: 15px 0;
 		}
 		.logo-footer {
 			margin-top: 75px;
+			margin-right: 50px
 		}
 		.paxyl-logo-bottom {
 			width: 140px;
-			margin-right: 3rem;
-		}
+ 		}
 		.footer-icon-address {
 			margin-top: 40px;
 			margin-right: 15px;
@@ -908,8 +908,9 @@ input {
 		.linkedin-bottom {
 			margin-top: 10px;
 			margin-left: 45px;
-} */
+		}
 
+}
 /* <!-- ================ 320PX AMAZING MEDIA QUERIES =============== --> */
 
 @media (max-width: 320px) {
