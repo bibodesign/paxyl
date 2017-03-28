@@ -201,7 +201,7 @@ a:focus {
 /* <!-- ================ CAROUSEL =============== --> */
 .slendr {
 	margin-top: 105px;
-	height: 90vh;
+	height: 100vh;
 }
 .slider-content {
   position: absolute;
@@ -226,6 +226,9 @@ a:focus {
   color: #fff;
   margin-top: 15vh;
   margin-left: 15vw;
+}
+.slendr-control {
+	margin-bottom: 8rem;
 }
 .slider-content .slider-box {
   text-align: left;
