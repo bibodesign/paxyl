@@ -738,11 +738,11 @@ input {
 	p {
 		font-size: 1.7rem;
 		line-height: 1.5;
-		margin-top: 0.5em;
+		margin-top: 0;
 	}
 	.main-title {
 		padding-top: 2rem;
-		padding-bottom: 2rem;
+		padding-bottom: 0.5rem;
 	}
 	.main-text {
 		padding-bottom: 3rem;
@@ -751,6 +751,8 @@ input {
 		font-size: 1.8rem;
 		font-weight: 700;
 		font-style: normal;
+	}
+	br { display: none;
 	}
 /* ---------- TOP NAV BAR ---------- */
 
@@ -824,10 +826,58 @@ input {
 		margin-bottom: 4rem;
 	}
 	.btn-black {
-		padding: 15px 30px;
 		font-size: 1.5rem;
 	}
 }
+
+/* ---------- SERVICES ---------- */
+	.services-intro {
+		font-size: 2rem;
+		padding-top: 6rem;
+	}
+
+/* ---------- CLIENTS ---------- */
+	.logo-clients {
+		width: 140px;
+		margin-right: 2rem;
+		margin-left: 2rem;
+		margin-bottom: 3rem;
+	}
+	.clients-intro {
+    	font-size: 2rem;
+	}
+	.logo-temoignages {
+		border: 6px solid #999898;
+		width: 140px;
+		height: 140px;
+		margin-bottom: 1rem;
+	}
+	.btn-white,.send-btn,.btn-reverse-2  {
+		font-size: 1.5rem;
+	}
+	.send-btn {
+		 margin-bottom: 50px;
+	}
+
+/* ---------- CONTACT ---------- */
+	.fa-map-marker {
+		font-size: 4rem;
+		text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+		top: 42%;
+		right: 25%;
+	}
+	.box-text,.sujet {
+		width: 600px;
+		height: 50px;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+	.message {
+		width: 600px;
+		height: 165px;
+		margin-right: 0;
+	}	
+
 
 /* ---------- FOOTER ---------- */
 
@@ -842,9 +892,8 @@ input {
 			margin-right: 3rem;
 		}
 		.footer-icon-address {
-			display: block;
-			margin-top: 50px;
-			margin-right: 10px;
+			margin-top: 40px;
+			margin-right: 15px;
 		}
 		.footer-icon {
 			padding-bottom: 20px;
