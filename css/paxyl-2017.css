@@ -209,17 +209,8 @@ a:focus {
   height: 100%;
   left: 0;
   top: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  box-align: center;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  box-pack: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+	justify-content: flex-start;
 }
 .slider-content {
   color: #fff;
@@ -752,7 +743,8 @@ input {
 		font-weight: 700;
 		font-style: normal;
 	}
-	br { display: none;
+	p br { 
+		display: none;
 	}
 /* ---------- TOP NAV BAR ---------- */
 
@@ -786,10 +778,11 @@ input {
 
 /* ---------- INDEX ---------- */
 	.slendr {
-		margin-top: 135px;
+		margin-top: 143px;
 	}
 	.slider-content {
-		margin-top: 15vh;
+		margin-top: 20%;
+		margin-left: 16%;
 	}
 	.slendr-control {
 		margin-bottom: 10rem;
@@ -804,10 +797,11 @@ input {
 	  justify-content: flex-start;
 	}
 	.fa-caret-right {
-		display: block;
+		display: inline-block;
 		color: #ffffff;
 		font-size: 8rem;
 		margin-left: 0;
+		margin-right: 0;
 	}
 	.btn-white {
 		float: right;
@@ -852,7 +846,7 @@ input {
 		height: 140px;
 		margin-bottom: 1rem;
 	}
-	.btn-white,.send-btn,.btn-reverse-2  {
+	.send-btn,.btn-reverse-2  {
 		font-size: 1.5rem;
 	}
 	.send-btn {
@@ -877,7 +871,6 @@ input {
 		height: 165px;
 		margin-right: 0;
 	}	
-
 
 /* ---------- FOOTER ---------- */
 
