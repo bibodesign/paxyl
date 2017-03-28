@@ -272,6 +272,12 @@ a:focus {
 	display: flex;
 	flex-wrap: wrap;
 }
+.apropos-intro {
+	font-size: 2.5rem;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 8rem;
+}
 
 /* <!-- ================ PARTENAIRES =============== --> */
 
