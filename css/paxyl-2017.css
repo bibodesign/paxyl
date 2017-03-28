@@ -643,11 +643,10 @@ input {
 }
 .logo-footer {
 	margin-top: 75px;
-	margin-right: 20px;
+	margin-right: 100px;
 }
 .paxyl-logo-bottom {
 	width: 160px;
-	margin-right: 2rem;
 }
 .footer-icon-address {
 	display: block;
@@ -854,7 +853,7 @@ input {
 	}
 
 /* ---------- CONTACT ---------- */
-	.fa-map-marker {
+/* 	.fa-map-marker {
 		font-size: 4rem;
 		text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 		top: 42%;
@@ -870,11 +869,11 @@ input {
 		width: 600px;
 		height: 165px;
 		margin-right: 0;
-	}	
+	} */	
 
 /* ---------- FOOTER ---------- */
 
-		.site-nav-bottom {
+/* 		.site-nav-bottom {
 			padding: 15px 0;
 		}
 		.logo-footer {
@@ -909,7 +908,7 @@ input {
 		.linkedin-bottom {
 			margin-top: 10px;
 			margin-left: 45px;
-}
+} */
 
 /* <!-- ================ 320PX AMAZING MEDIA QUERIES =============== --> */
 
