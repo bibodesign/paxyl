@@ -1041,7 +1041,7 @@ input {
 
 /* ---------- INDEX-CAROUSEL ---------- */
 	.slendr {
-		margin-top: 202px;
+		margin-top: 212px;
 	}
 	.slider-content-a {
 		margin-left: 15vw;
@@ -1100,7 +1100,6 @@ input {
 		    margin-left: 1rem;
 		    margin-bottom: 2rem;
 		}
-
 		.temoignages-section {
 		    display: flex;
 		    flex-direction: column;
@@ -1108,7 +1107,6 @@ input {
 			align-items: center;
 			margin-bottom: 1rem;
 		}
-
 		.temoignages {
 			margin-right: 0;
 			margin-bottom: 2rem;
@@ -1161,6 +1159,7 @@ input {
 		.logo-footer {
 			margin-top: 10px;
 		    margin-right: 0px;
+		   	margin-bottom: 20px;
 		}
 		.footer-icon {
 			display: none;
@@ -1168,12 +1167,19 @@ input {
 		.linkedin-bottom {
 			display: none;
 		}
+		.nav-bottom ul li a {
+		    line-height: 1.5;
+		}
 		.nav-bottom li {
-			margin-left: 30px;
+			margin-left: 0px;
 		}
 		.address {
 		    margin-bottom: 0px;
 		}
+		.footer-address {
+		    padding-top: 10px;
+		    margin-bottom: 20px;
+	    }
 		h5 {
 			display: none;
 		}
