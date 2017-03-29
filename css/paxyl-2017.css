@@ -852,6 +852,25 @@ input {
 		 margin-bottom: 50px;
 	}
 
+/* ---------- SOLUTIONS ---------- */
+
+	.btn-xcloud {
+		font-size: 2rem;
+		text-align: center;
+		padding: 10px 20px;
+	}
+
+	.btn-ensite {
+		font-size: 2rem;
+		text-align: center;
+		padding: 10px 40px;
+	}
+	.btn-red {
+		padding: 20px 45px;	
+	}
+
+
+
 /* ---------- CONTACT ---------- */
 	.fa-map-marker {
 		font-size: 4rem;
@@ -861,13 +880,15 @@ input {
 	}
 	.box-text,.sujet {
 		width: 600px;
-		height: 50px;
+		height: 45px;
+		border-bottom: 4px solid #000000;
 		margin-bottom: 20px;
 		margin-right: 0;
 	}
 	.message {
 		width: 600px;
-		height: 165px;
+		height: 125px;
+		border-bottom: 4px solid #000000;
 		margin-right: 0;
 	}	
 
