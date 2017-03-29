@@ -1117,7 +1117,9 @@ input {
 			margin-bottom: 2rem;
 		}
 		.logo-temoignages {
-		    border: 5px solid #999898;
+		    border: 4px solid #999898;
+		    width: 120px;
+		    height: 120px;
 		}
 
 /* ---------- SOLUTIONS ---------- */
@@ -1191,7 +1193,28 @@ input {
 
 /* ---------- CONTACT ---------- */
 
+	.fa-map-marker {
+		font-size: 4rem;
+		top: 42%;
+		right: 5%;
+	}
+	.box-text,.sujet {
+		width: 320px;
+		height: 40px;
+		border-bottom: 2px solid #000000;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+	.message {
+		width: 320px;
+		height: 130px;
+		border-bottom: 2px solid #000000;
+		margin-right: 0;
+	}
+	.main-title-service {
+    	padding-top: 20px;
 
+	}	
 
 
 
