@@ -783,36 +783,37 @@ input {
 		font-size: 1.2rem;
 	}
 
-/* ---------- INDEX ---------- */
+/* ---------- INDEX-CAROUSEL ---------- */
 	.slendr {
 		margin-top: 143px;
 	}
-	.slider-content {
-		margin-top: 20%;
-		margin-left: 16%;
+	.slider-content-a {
+		margin-left: 18vw;
+		margin-top: 25vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
 	}
-	.slendr-control {
-		margin-bottom: 10rem;
+	.triangle-btn-carousel-a {
+		margin-top: 3rem;
+		display: flex;
 	}
-	.slider-content .slider-box {
-		text-align: left;
+	.slider-content-b {
+		margin-left: 18vw;
+		margin-top: 25vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
 	}
-	.slider-content {
-	  display: flex;
-	  flex-direction: row;
-	  flex-wrap: nowrap;
-	  justify-content: flex-start;
+	.triangle-btn-carousel-b {
+		margin-top: 3rem;
+		display: flex;
 	}
 	.fa-caret-right {
-		display: inline-block;
-		color: #ffffff;
 		font-size: 8rem;
-		margin-left: 0;
-		margin-right: 0;
-	}
-	.btn-white {
-		float: right;
-		bottom: 65px;
+		margin-left: 0rem;
 	}
 
 /* ---------- PARTENAIRES ---------- */
