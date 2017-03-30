@@ -704,16 +704,16 @@ input {
 
 /* <!-- ================ 768PX LANDSCAPE AMAZING MEDIA QUERIES =============== --> */
 
-@media (max-width: 1024px) 
+@media (max-width: 736px) 
 		and (orientation: landscape) {
 	.container {
-		width: 980px;
+		width: 636px;
 	}
 	.container-02 {
-		width: 980px;
+		width: 636px;
 	}
 	.container-about {
-		width: 980px;
+		width: 636px;
 	}
 
 
