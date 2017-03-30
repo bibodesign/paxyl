@@ -701,9 +701,29 @@ input {
 	font-size: 1rem;
 	margin: 0;
 }
-/* <!-- ================ 768PX AMAZING MEDIA QUERIES =============== --> */
 
-@media (max-width: 768px) {
+/* <!-- ================ 768PX LANDSCAPE AMAZING MEDIA QUERIES =============== --> */
+
+@media (max-width: 1024px) 
+		and (orientation: landscape) {
+	.container {
+		width: 980px;
+	}
+	.container-02 {
+		width: 980px;
+	}
+	.container-about {
+		width: 980px;
+	}
+
+
+}
+
+
+/* <!-- ================ 768PX PORTAIT AMAZING MEDIA QUERIES =============== --> */
+
+@media (max-width: 768px)
+ 	and (orientation : portrait)  {
 	.container {
 		width: 678px;
 	}
@@ -1069,9 +1089,9 @@ input {
 	.btn-white {
 		padding: 8px 18px;
 		font-size: 1.4rem;
-	}
+	}s
 	.slendr-control {
-		margin-bottom: 10rem;
+		margin-bottom: 5rem;
 	}
 	.slendr-direction {
 		display: none;
@@ -1213,14 +1233,13 @@ input {
 	}
 	.main-title-service {
     	padding-top: 20px;
-
 	}	
-
 
 
 /* ---------- FOOTER ---------- */
 		.site-nav-bottom {
 			padding: 10px 0;
+			justify-content: center;
 		}
 		.logo-footer {
 			margin-top: 10px;
