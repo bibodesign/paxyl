@@ -1283,10 +1283,10 @@ and (orientation: landscape) {
 		margin-right: 6rem;
 	}
 	.nav-top li {
-		margin-left: 0.7rem;
+		margin-left: 0.6rem;
 	}
 	.linkedin {
-		width: 30px;
+		width: 25px;
 		margin-left: 2rem;
 		margin-right: 2rem;
 		margin-top: 0.9rem;
