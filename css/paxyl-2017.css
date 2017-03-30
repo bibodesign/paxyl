@@ -688,7 +688,7 @@ input {
 	color: #D0011B;
 }
 .nav-bottom li {
-	margin-left: 120px;
+	margin-left: 110px;
 }
 .linkedin-bottom {
 	margin-top: 10px;
@@ -699,9 +699,9 @@ input {
 }
 .copyright {
 	color: #ffffff;
-	padding-top: 2rem;
 	font-size: 1rem;
-	margin: 0;
+	line-height: 3;
+	margin-left: 2rem;
 }
 
 
@@ -794,7 +794,7 @@ input {
 
 /* ---------- INDEX-CAROUSEL ---------- */
 	.slendr {
-		margin-top: 143px;
+		margin-top: 145px;
 	}
 	.slider-content-a {
 		margin-left: 18vw;
