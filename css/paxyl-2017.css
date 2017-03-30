@@ -688,11 +688,11 @@ input {
 	color: #D0011B;
 }
 .nav-bottom li {
-	margin-left: 110px;
+	margin-left: 120px;
 }
 .linkedin-bottom {
 	margin-top: 10px;
-	margin-left: 150px;
+	margin-left: 130px;
 }
 .linkedin-bottom a:hover {
 	opacity: 0.5;
@@ -955,20 +955,6 @@ input {
 
 }
 
-/* <!-- ================ IPHONE LANDSCAPE AMAZING MEDIA QUERIES =============== --> */
-
-@media (max-width: 667px)
-and (orientation: landscape) {
-	.container {
-		width: 550px;
-	}
-	.container-02 {
-		width: 550px;
-	}
-	.container-about {
-		width: 550px;
-	}
-}
 /* <!-- ================ 320PX AMAZING MEDIA QUERIES =============== --> */
 
 @media (max-width: 375px)
@@ -1269,4 +1255,62 @@ and (orientation: portrait) {
 			display: none;
 		}
 
+}
+/* <!-- ================ IPHONE LANDSCAPE AMAZING MEDIA QUERIES =============== --> */
+
+@media (max-width: 667px)
+and (orientation: landscape) {
+	.container {
+		width: 545px;
+	}
+	.container-02 {
+		width: 545px;
+	}
+	.container-about {
+		width: 545px;
+	}
+/* ---------- TOP NAV BAR ---------- */
+	.site-nav-top {
+		padding: 20px 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.paxyl-logo {
+		width: 175px;
+		margin-top: 1rem;
+		margin-left: 6rem;
+		margin-right: 6rem;
+	}
+	.nav-top li {
+		margin-left: 0.7rem;
+	}
+	.linkedin {
+		width: 30px;
+		margin-left: 2rem;
+		margin-right: 2rem;
+		margin-top: 0.9rem;
+	}
+	.langue {
+		font-size: 1.2rem;
+	}
+
+/* ---------- FOOTER ---------- */
+
+	.logo-footer {
+		width: 545px;	
+		margin-top: 20px;
+		margin-right: 50px;
+		margin-bottom: 10px;
+	}
+	.footer-icon {
+		display: none;
+	}
+	.nav-bottom li {
+		margin-left: 50px;
+	}
+	.linkedin-bottom {
+		margin-top: 10px;
+		margin-left: 50px;
+	}
 }
