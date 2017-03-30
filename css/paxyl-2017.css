@@ -163,6 +163,7 @@ video {
 .paxyl-logo {
 	width: 160px;
 	margin-right: 7rem;
+	margin-left: 2rem;
 }
 .nav-top a:hover {
 	padding-bottom: 6px;
@@ -655,6 +656,7 @@ input {
 .logo-footer {
 	margin-top: 75px;
 	margin-right: 100px;
+	margin-right: 2rem;
 }
 .paxyl-logo-bottom {
 	width: 160px;
@@ -969,17 +971,17 @@ input {
 }
 /* <!-- ================ 320PX AMAZING MEDIA QUERIES =============== --> */
 
-@media (max-width: 320px)
+@media (max-width: 375px)
     and (orientation: portrait) {
 
 	.container {
-		max-width: 290px;
+		max-width: 295px;
 	}
 	.container-02 {
-		width: 290px;
+		width: 295px;
 	}
 	.container-about {
-		width: 290px;
+		width: 295px;
 	}
 	body {
 		font-size: 1.2rem;
