@@ -702,25 +702,9 @@ input {
 	margin: 0;
 }
 
-/* <!-- ================ 768PX LANDSCAPE AMAZING MEDIA QUERIES =============== --> */
-
-@media (max-width: 736px) 
-		and (orientation: landscape) {
-	.container {
-		width: 636px;
-	}
-	.container-02 {
-		width: 636px;
-	}
-	.container-about {
-		width: 636px;
-	}
 
 
-}
-
-
-/* <!-- ================ 768PX PORTAIT AMAZING MEDIA QUERIES =============== --> */
+/* <!-- ================ 768PX PORTAIT ipad AMAZING MEDIA QUERIES =============== --> */
 
 @media (max-width: 768px)
  	and (orientation : portrait)  {
@@ -968,6 +952,23 @@ input {
 		}
 
 }
+
+/* <!-- ================ IPHONE LANDSCAPE AMAZING MEDIA QUERIES =============== --> */
+
+@media only screen 
+    and (min-device-width : 480px)
+    and (max-device-width : 736px)
+	and (orientation: landscape) {
+	.container {
+		width: 460px;
+	}
+	.container-02 {
+		width: 460px;
+	}
+	.container-about {
+		width: 460px;
+	}
+}
 /* <!-- ================ 320PX AMAZING MEDIA QUERIES =============== --> */
 
 @media only screen 
@@ -1106,7 +1107,7 @@ input {
 		height: 120px;
 		margin-left: .5rem;
 		margin-right: .5rem;
-		margin-bottom: 2rem;
+		margin-bottom: 3rem;
 	}
 
 /* ---------- SERVICES ---------- */
@@ -1120,7 +1121,7 @@ input {
 /* ---------- CLIENTS ---------- */
 
 		.logo-clients {
-		    width: 100px;
+		    width: 115px;
 		    margin-right: 1rem;
 		    margin-left: 1rem;
 		    margin-bottom: 2rem;
@@ -1238,8 +1239,8 @@ input {
 
 /* ---------- FOOTER ---------- */
 		.site-nav-bottom {
-			padding: 10px 0;
-			justify-content: center;
+			padding: 10px 10px;
+			justify-content: flex-start;
 		}
 		.logo-footer {
 			margin-top: 10px;
