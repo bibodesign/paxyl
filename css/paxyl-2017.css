@@ -956,24 +956,24 @@ input {
 /* <!-- ================ IPHONE LANDSCAPE AMAZING MEDIA QUERIES =============== --> */
 
 @media only screen 
-    and (min-device-width : 480px)
-    and (max-device-width : 736px)
+    and (min-device-width : 320px)
+    and (max-device-width : 568px)
 	and (orientation: landscape) {
 	.container {
-		width: 460px;
+		width: 560px;
 	}
 	.container-02 {
-		width: 460px;
+		width: 560px;
 	}
 	.container-about {
-		width: 460px;
+		width: 560px;
 	}
 }
 /* <!-- ================ 320PX AMAZING MEDIA QUERIES =============== --> */
 
 @media only screen 
     and (min-device-width : 320px)
-    and (max-device-width : 667px)
+    and (max-device-width : 568px)
     and (orientation : portrait) {
 
 	.container {
