@@ -957,23 +957,23 @@ input {
 
 @media only screen 
     and (min-device-width : 320px)
-    and (max-device-width : 568px)
+    and (max-device-width : 667px)
 	and (orientation: landscape) {
 	.container {
-		width: 560px;
+		width: 550px;
 	}
 	.container-02 {
-		width: 560px;
+		width: 550px;
 	}
 	.container-about {
-		width: 560px;
+		width: 550px;
 	}
 }
 /* <!-- ================ 320PX AMAZING MEDIA QUERIES =============== --> */
 
 @media only screen 
     and (min-device-width : 320px)
-    and (max-device-width : 568px)
+    and (max-device-width : 667px)
     and (orientation : portrait) {
 
 	.container {
