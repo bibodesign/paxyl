@@ -955,9 +955,7 @@ input {
 
 /* <!-- ================ IPHONE LANDSCAPE AMAZING MEDIA QUERIES =============== --> */
 
-@media only screen 
-    and (min-device-width : 568px)
-    and (max-device-width : 667px)
+@media (max-width: 667px)
 	and (orientation: landscape) {
 	.container {
 		width: 550px;
@@ -971,10 +969,8 @@ input {
 }
 /* <!-- ================ 320PX AMAZING MEDIA QUERIES =============== --> */
 
-@media only screen 
-    and (min-device-width : 320px)
-    and (max-device-width : 667px)
-    and (orientation : portrait) {
+@media (max-width: 320px)
+    and (orientation: portrait) {
 
 	.container {
 		max-width: 290px;
