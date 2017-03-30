@@ -956,7 +956,7 @@ input {
 /* <!-- ================ IPHONE LANDSCAPE AMAZING MEDIA QUERIES =============== --> */
 
 @media only screen 
-    and (min-device-width : 320px)
+    and (min-device-width : 568px)
     and (max-device-width : 667px)
 	and (orientation: landscape) {
 	.container {
