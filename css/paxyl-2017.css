@@ -1204,14 +1204,14 @@ and (orientation: portrait) {
 	.box-text,.sujet {
 		width: 320px;
 		height: 40px;
-		border-bottom: 2px solid #000000;
+		border-bottom: 3px solid #000000;
 		margin-bottom: 20px;
 		margin-right: 0;
 	}
 	.message {
 		width: 320px;
 		height: 130px;
-		border-bottom: 2px solid #000000;
+		border-bottom: 3px solid #000000;
 		margin-right: 0;
 	}
 	.main-title-service {
@@ -1254,4 +1254,156 @@ and (orientation: portrait) {
 	    	margin-left: 1rem;
 	    }
 
+}
+
+/* <!-- ================ 320PX IPHONE 5 ET 6 PORTRAIT =============== --> */
+
+@media (max-width: 375px)
+and (orientation: portrait) {
+
+	.container {
+		width: 295px;
+	}
+	.container-02 {
+		width: 295px;
+	}
+	.container-about {
+		width: 295px;
+	}
+	h3 {
+	  	font-size: 2.5rem;
+	  	line-height: 1.2;
+	}
+	h4 {  
+	  	font-size: 3.5rem;
+	}
+	p {
+		text-align: left;
+	}
+	.btn-black,.btn-reverse-2 {
+    	padding: 15px 20px;
+	}
+
+
+/* ---------- TOP NAV BAR ---------- */
+
+	.paxyl-logo {
+		width: 140px;
+		margin-top: 6rem;
+		margin-left: 1rem;
+		margin-right: 2.5rem;
+	}
+
+	.nav ul li a {
+		font-size: 1.4rem;
+		line-height: 2.5;
+	}
+	.nav ul li {
+		display: block;
+	}
+	.linkedin {
+		width: 40px;
+		margin-left: 1rem;
+		margin-right: 3rem;
+		margin-top: 0rem;
+		margin-bottom: 1rem;
+	}
+	.langue {
+		font-size: 1.3rem;
+	}	
+
+/* ---------- INDEX-CAROUSEL ---------- */
+	.slendr {
+		margin-top: 256px;
+	}
+	.slider-content-a {
+		margin-left: 15vw;
+		margin-top: 10vh;
+	}
+	.slider-content-b {
+		margin-left: 15vw;
+		margin-top: 10vh;
+	}
+
+	.fa-caret-right {
+		font-size: 5rem;
+		margin-right: 1rem;
+	}
+	.btn-white {
+		padding: 8px 18px;
+		font-size: 1.4rem;
+	}	
+/* ---------- PARTENAIRES ---------- */
+
+	.logo-partenaires {
+		border: 4px solid #999898;
+		padding: 10px;
+		width: 120px;
+		height: 120px;
+		margin-left: .5rem;
+		margin-right: .5rem;
+		margin-bottom: 3rem;
+	}
+
+/* ---------- SERVICES ---------- */
+
+		.services-intro {
+		    font-size: 1.8rem;
+		    padding-top: 4rem;
+		    text-align: left;
+		}
+/* ---------- CLIENTS ---------- */
+
+		.logo-clients {
+		    width: 115px;
+		    margin-right: 1rem;
+		    margin-left: 1rem;
+		    margin-bottom: 2rem;
+		}
+		.temoignages-section {
+		    display: flex;
+		    flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 1rem;
+		}
+		.temoignages {
+			margin-right: 0;
+			margin-bottom: 2rem;
+		}
+		.logo-temoignages {
+		    border: 4px solid #999898;
+		    width: 120px;
+		    height: 120px;
+		}
+
+/* ---------- SOLUTIONS ---------- */
+
+		.solutions-titre {
+		    text-align: left;
+		}
+		.solutions-texte {
+			text-align: left;
+		}
+
+
+/* ---------- CONTACT ---------- */
+
+	.fa-map-marker {
+		font-size: 4rem;
+		top: 42%;
+		right: 5%;
+	}
+
+
+/* ---------- FOOTER ---------- */
+	.site-nav-bottom {
+		padding: 10px 10px;
+	}
+	.footer-address {
+    	max-width: 150px;
+    }
+	h5 {
+		display: none;
+	}			
 }
