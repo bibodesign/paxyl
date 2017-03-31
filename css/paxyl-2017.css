@@ -1406,23 +1406,20 @@ and (orientation: portrait) {
 	h5 {
 		display: none;
 	}
-
-
-
-
+}
 
 /* <!-- ================ IPHONE 5 ET 6 667PX LANDSCAPE =============== --> */
 
 @media (max-width: 667px)
 and (orientation: landscape) {
 	.container {
-		width: 540px;
+		width: 545px;
 	}
 	.container-02 {
-		width: 540px;
+		width: 545px;
 	}
 	.container-about {
-		width: 540px;
+		width: 545px;
 	}
 
 	body {
