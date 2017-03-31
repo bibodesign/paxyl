@@ -877,18 +877,18 @@ input {
 /* ---------- SOLUTIONS ---------- */
 
 	.btn-xcloud {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		text-align: center;
-		padding: 10px 20px;
+		padding: 18px 45px;
 	}
-
-	.btn-ensite {
-		font-size: 2rem;
+	.btn-ensite-eng {
+		font-size: 1.5rem;
 		text-align: center;
-		padding: 10px 40px;
+		padding: 18px 30px;
 	}
 	.btn-red {
-		padding: 20px 45px;	
+		font-size: 1.5rem;
+		padding: 18px 45px;	
 	}
 /* ---------- CARACTERISTIQUES XCLOUD ---------- */
 
@@ -925,7 +925,7 @@ input {
 		}
 		.logo-footer {
 			margin-top: 75px;
-			margin-right: 50px
+			margin-right: 45px
 		}
 		.paxyl-logo-bottom {
 			width: 140px;
@@ -954,7 +954,7 @@ input {
 		}
 		.linkedin-bottom {
 			margin-top: 10px;
-			margin-left: 45px;
+			margin-left: 40px;
 		}
 
 }
