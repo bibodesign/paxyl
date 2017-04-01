@@ -959,6 +959,98 @@ and (orientation : portrait)  {
 
 }
 
+/* <!-- ================ 1024PX LANDSCAPE IPAD =============== --> */
+
+@media (max-width: 1024px)
+and (orientation: landscape)  {
+	.container {
+		width: 920px;
+	}
+	.container-02 {
+		width: 920px;
+	}
+	.container-about {
+		width: 920px;
+	}
+
+/* ---------- TOP NAV BAR ---------- */
+	.site-nav-top {
+		padding: 20px 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.paxyl-logo {
+		width: 165px;
+		margin-top: 1rem;
+		margin-right: 6rem;
+	}
+	.nav-top li {
+		margin-left: 1.5rem;
+	}
+	.linkedin {
+		width: 30px;
+		margin-left: 6rem;
+		margin-right: 6rem;
+		margin-top: 0.7rem;
+	}
+
+
+/* ---------- INDEX-CAROUSEL ---------- */
+	.slendr {
+		margin-top: 107px;
+	}
+	.slider-content-a {
+		margin-left: 18vw;
+		margin-top: 20vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.triangle-btn-carousel-a {
+		margin-top: 3rem;
+		display: flex;
+	}
+	.slider-content-b {
+		margin-left: 18vw;
+		margin-top: 20vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.triangle-btn-carousel-b {
+		margin-top: 3rem;
+		display: flex;
+	}
+	.fa-caret-right {
+		font-size: 8rem;
+		margin-left: 0rem;
+	}
+
+/* ---------- CONTACT ---------- */
+	.fa-map-marker {
+		top: 41%;
+		right: 28%;
+	}
+	.box-text {
+		width: 420px;
+	}
+	.sujet,.message {
+		width: 860px;
+	}
+
+/* ---------- FOOTER ---------- */
+	.nav-bottom li {
+		margin-left: 70px;
+	}
+	.linkedin-bottom {
+		margin-left: 70px;
+	}
+
+}
+
 /* <!-- ================ IPHONE 6+ 414PX PORTRAIT =============== --> */
 
 @media (max-width: 414px)
@@ -1145,25 +1237,23 @@ and (orientation: portrait) {
 		}
 		.btn-xcloud {
 			width: 250px;
-			height: 55px;
 			font-size: 1.5rem;
 			text-align: center;
 			margin-bottom: 2rem;
 			padding: 10px 20px;
 			margin-right: 0;
 		}
-		.btn-ensite {
+		.btn-ensite,.btn-ensite-eng {
 			width: 250px;
-			height: 55px;	
+			letter-spacing: .17em;	
 			font-size: 1.5rem;
 			text-align: center;
 			padding: 10px 20px;
 		}
 		.btn-red {
 			width: 250px;
-			height: 55px;
 			font-size: 1.5rem;
-			padding: 15px 20px;
+			padding: 15px 40px;
 		}
 		.logo-xcloud {
 			width: 55%;
@@ -1187,10 +1277,11 @@ and (orientation: portrait) {
 		.caracteristiques-icon {
 			width: 45px;
 			height: 35px;
-			margin-top: 5px;
+			margin-top: 4px;
 		}
 		.caract-text p {
 			width: 100px;
+			letter-spacing: 0;
 			font-size: 1rem;
 		}
 
