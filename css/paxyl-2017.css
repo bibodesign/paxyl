@@ -89,6 +89,9 @@ a {
 .main-text {
 	padding-bottom: 6rem;
 }
+.thanks-text {
+	text-align: center;
+}
 em {
 	font-size: 1.9rem;
 	font-weight: 700;
