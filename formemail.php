@@ -34,7 +34,7 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = 'admin@paxyl.ca';//<== update the email address
+$email_from = 'info@paxyl.ca';//<== update the email address
 $email_subject = "Nouvelle demande de contact";
 $email_body = "You have received a new message from the user $name.\n".
     "Mobile number: $visitor_mobile.\n".
@@ -43,7 +43,7 @@ $email_body = "You have received a new message from the user $name.\n".
     "Subject: $visitor_subject\n".
     "Here is the message:\n $message\n".
 
-$to = "fbeausoleil@gmail.com";//<== update the email address
+$to = "info@paxyl.ca";//<== update the email address
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
@@ -51,9 +51,9 @@ mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
 
 if ($visistor_send=="ENVOYER"){
-  header('Location: http://bibodesign.github.io/paxyl/merci.html');
+  header('Location: http://www.paxyl.ca/merci.html');
 }else {
-  header('Location: http://bibodesign.github.io/paxyl/thank-you.html');  
+  header('Location: http://www.paxyl.ca/thank-you.html');  
 }
 
 
