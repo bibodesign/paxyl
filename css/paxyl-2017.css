@@ -662,7 +662,7 @@ input {
 }
 .logo-footer {
 	margin-top: 75px;
-	margin-right: 100px;
+	margin-right: 90px;
 	margin-left: 2rem;
 }
 .paxyl-logo-bottom {
@@ -715,7 +715,7 @@ input {
 
 /* <!-- ================ 768PX PORTAIT IPAD =============== --> */
 
-@media (max-width: 768px)
+@media (max-width: 950px)
 and (orientation : portrait)  {
 	.container {
 		width: 670px;
@@ -882,16 +882,21 @@ and (orientation : portrait)  {
 	.btn-xcloud {
 		font-size: 1.5rem;
 		text-align: center;
-		padding: 18px 45px;
+		padding: 18px 20px;
+	}
+	.btn-ensite {
+		font-size: 1.5rem;
+		text-align: center;
+		padding: 18px 20px;
 	}
 	.btn-ensite-eng {
 		font-size: 1.5rem;
 		text-align: center;
-		padding: 18px 30px;
+		padding: 18px 20px;
 	}
 	.btn-red {
 		font-size: 1.5rem;
-		padding: 18px 45px;	
+		padding: 18px 40px;	
 	}
 /* ---------- CARACTERISTIQUES XCLOUD ---------- */
 
@@ -1256,7 +1261,7 @@ and (orientation: portrait) {
 		.btn-red {
 			width: 250px;
 			font-size: 1.5rem;
-			padding: 15px 40px;
+			padding: 15px 22px;
 		}
 		.logo-xcloud {
 			width: 55%;
@@ -1315,7 +1320,7 @@ and (orientation: portrait) {
 
 /* ---------- FOOTER ---------- */
 		.site-nav-bottom {
-			padding: 10px 10px;
+			padding: 10px 0px;
 		}
 		.logo-footer {
 			margin-top: 10px;
@@ -1548,7 +1553,7 @@ and (orientation: landscape) {
 	}
 	.btn-red {
 		font-size: 1.5rem;
-		padding: 15px 45px;	
+		padding: 15px 40px;	
 	}
 /* ---------- CARACTERISTIQUES XCLOUD ---------- */
 
@@ -1748,7 +1753,7 @@ and (orientation: portrait) {
 			text-align: left;
 		}
 		.btn-red {
-			padding: 20px 24px;
+			padding: 20px 10px;
 			letter-spacing: .2em;
 		}
 
@@ -1764,7 +1769,7 @@ and (orientation: portrait) {
 
 /* ---------- FOOTER ---------- */
 	.site-nav-bottom {
-		padding: 10px 10px;
+		padding: 10px 0px;
 	}
 	.footer-address {
     	max-width: 150px;
@@ -1988,7 +1993,7 @@ and (orientation: landscape) {
 		.btn-red {
 			width: 250px;
 			font-size: 1.5rem;
-			padding: 15px 40px;
+			padding: 18px 24px;
 		}
 		.logo-xcloud {
 			width: 40%;
